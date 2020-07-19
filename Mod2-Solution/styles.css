@@ -15,13 +15,13 @@ h1{
 /*******************************************************************************************/
 #sw,#pb,#pc{
 	background-color: lightgrey;
-	width: 80%;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border: 1px solid black;
-	height: 150px;
+	height: 200px;
 	clear: right;
 	text-align: center;
 }
@@ -43,7 +43,7 @@ section{
 	float: right;
 	margin: 0;
 	clear: right;
-	width: auto;
+	width: 45%;
 	font-family: comic sans ms;
 }
 #s{
