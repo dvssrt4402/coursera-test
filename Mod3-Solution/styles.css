@@ -1,0 +1,98 @@
+body{
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	border-radius: 0;
+	border:0;
+	border-bottom: 2px solid black;
+	background-color: grey;
+}
+#nav-brand h1{
+	position: absolute;
+	color: black;
+	font-family: 'Lora', sans-serif;
+	margin-top: -6px;
+	margin-bottom: auto;
+}
+#nav-brand a:hover, #nav-brand a:focus{
+	text-decoration: none;
+}
+#menu{
+	color: black;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	margin-bottom: 50px;
+}
+
+.row-no-gutters{
+	width: 100%;
+}
+
+#m1 h3{
+	text-align: center;
+	color: black;
+	margin-bottom: 25px;
+}
+
+#m1 section{
+	font-size: 1.5em;
+	color: black;
+}
+#cf1, #cf2, #cf3{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px
+}
+
+#m1{
+	background-color: grey;
+	padding-right: 40px;
+	padding-left: 40px;
+	height: auto;
+}
+#c>h4, #b>h4, #s>h4{
+	margin-top: 0;
+	margin-bottom:0;
+	color: black;
+	text-align: center;
+}
+#c>hr, #b>hr{
+	color: black;
+	width: 95%;
+}
+
+.navbar button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+	border-color: black;
+}
+
+#butt:active,#butt:focus{
+	border: 1px solid white;
+}
+
+#butt .icon-bar:active, #butt .icon-bar:focus{
+	border-color: white;
+}
+
+#l{
+	float: right;
+	color: white;
+}
+#h{
+	border-color: black;
+	width: 90%;
+}
+
+@media (max-width: 767px){
+	#nav-collapse{
+		background-color: white;
+	}
+	#h{
+		color: black;
+	}
+}
+
+
+
+
