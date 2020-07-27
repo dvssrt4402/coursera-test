@@ -18,12 +18,7 @@ body{
 #nav-brand a:hover, #nav-brand a:focus{
 	text-decoration: none;
 }
-#menu{
-	color: black;
-	text-align: center;
-	font-family: 'Oxygen', sans-serif;
-	margin-bottom: 50px;
-}
+
 
 .row-no-gutters{
 	width: 100%;
@@ -44,6 +39,7 @@ body{
 	margin-right: 30px;
 	margin-bottom: 50px
 }
+
 
 #m1{
 	background-color: grey;
