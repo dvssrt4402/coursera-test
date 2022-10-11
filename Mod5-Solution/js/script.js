@@ -108,8 +108,13 @@ $ajaxUtils.sendGetRequest(
 
 // About ends here.....
   
+// Awards Loading......
 
-
+$ajaxUtils.sendGetRequest(
+  awardsHtml, function(responseText){
+    document.querySelector("#main-content").innerHTML = responseText;
+  }, false);
+});
   
   
   
