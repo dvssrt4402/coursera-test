@@ -14,6 +14,12 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
+
+var aboutHtml = "snippets/about.html";
+  
+var awardsHtml = "snippets/awards.html";
+  
+  
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
@@ -87,8 +93,29 @@ $ajaxUtils.sendGetRequest(
   true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
+  
+  
+  
+  
+  
+//  About Loading.......
+  
+$ajaxUtils.sendGetRequest(
+  aboutHtml , function(responseText){
+    document.querySelector("#main-content").innerHTML = responseText;
+  }, false);
+});
+
+// About ends here.....
+  
 
 
+  
+  
+  
+  
+  
+  
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
