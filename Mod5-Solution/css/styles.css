@@ -82,6 +82,16 @@ body {
 }
 /* END HEADER */
 
+
+/* ABOUT */
+#founder{
+  margin: 0, auto;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 2 2 20px darkslateblue;
+}
+
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
