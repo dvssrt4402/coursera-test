@@ -98,23 +98,7 @@ $ajaxUtils.sendGetRequest(
   
   
   
-//  About Loading.......
-  
-$ajaxUtils.sendGetRequest(
-  aboutHtml , function(responseText){
-    document.querySelector("#main-content").innerHTML = responseText;
-  }, false);
-});
 
-// About ends here.....
-  
-// Awards Loading......
-
-$ajaxUtils.sendGetRequest(
-  awardsHtml, function(responseText){
-    document.querySelector("#main-content").innerHTML = responseText;
-  }, false);
-});
   
   
   
